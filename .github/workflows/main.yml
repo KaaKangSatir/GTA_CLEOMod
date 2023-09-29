@@ -22,7 +22,7 @@ jobs:
     - name: Install AndroidModLoader`s mod template...
       run: |
         unzip ./AML_src.zip
-        mv ./Android ModLoader-1.0.0.2/mod ./mod
+        mv ./AndroidModLoader-1.0.0.2/mod ./mod
 
     - name: Get SAUtils...
       uses: wei/wget@v1
